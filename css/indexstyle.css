@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+}
+img {
+    height: 10%;
+    width: 10%;
+    object-fit: contain;
+}
+button {
+    margin-left: 10%;
+}
