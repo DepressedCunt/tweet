@@ -13,7 +13,7 @@ try {
 }
 
 
-$sth = $dbh->prepare('SELECT * FROM tweet
+$sth = $dbh->prepare('SELECT tweet.*, users.name from tweet
             JOIN users
             ON tweet.user_id = users.id');
 $sth->execute();
