@@ -3,7 +3,7 @@ include 'include/dbinfo.php';
 
 try {
     $dbh = new PDO(
-        'mysql:host=localhost;dbname=' . $databasename . '',
+        'mysql:host=localhost;charset=utf8mb4;dbname=' . $databasename . '',
         $username,
          $password
     );
