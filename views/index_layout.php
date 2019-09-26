@@ -22,6 +22,7 @@
             <button type="button" class="btn btn-dark">Like</button>
                 <button type="button" class="btn btn-dark">Dislike</button>
                 <button type="button" class="btn btn-dark">Comment</button>
+                <button type="button" class="btn btn-dark">Follow</button>
             </footer>
         </section>
     <?php endforeach ?>
